@@ -1,6 +1,7 @@
 public class Experimental {
 	private int id;
 	private String exp;
+	private Long uid;
 
 	public Experimental(int id, String exp) {
 		this.id = id;
@@ -22,11 +23,14 @@ public class Experimental {
 		this.exp = exp;
 	}
 	
+	
+
 	@Override
 	public String toString() {
 		return "Experimental (" + 
 			"id: " + id + 
 			"exp: " + exp +
+			"UID: " + uid +
 			")";
 	}
 }
