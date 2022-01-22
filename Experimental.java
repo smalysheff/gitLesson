@@ -26,7 +26,7 @@ public class Experimental {
 	public String toString() {
 		return "Experimental (" + 
 			"id: " + id + 
-			"exp: " + exp
+			"exp: " + exp +
 			")";
 	}
 }
