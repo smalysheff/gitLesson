@@ -6,6 +6,14 @@ public class Experimental {
 		this.id = id;
 		this.exp = exp;
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getEXp() {
+		return exp;
+	}
 	
 	@Override
 	public String toString() {
