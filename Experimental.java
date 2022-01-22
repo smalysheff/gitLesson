@@ -11,9 +11,16 @@ public class Experimental {
 	public int getId() {
 		return id;
 	}
-
+	
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getEXp() {
 		return exp;
+	}
+
+	public void setExp(String exp) {
+		this.exp = exp;
 	}
 	
 	
